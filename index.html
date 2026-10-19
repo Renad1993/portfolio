@@ -92,14 +92,14 @@
 
   <section id="contactMe">
     <h2 data-i18n="navContact">Contact Me</h2>
-    <form class="contact">
+    <form class="contact" action="https://formspree.io/f/xyekadpj" method="POST">
       <label for="name"  data-i18n="navName">Name: </label>
-      <input type="text" id="name" required>
+      <input type="text" id="name" name="name" required>
       <label for="email"  data-i18n="navEmail">Emil: </label>
-      <input type="email" id="email" required>
+      <input type="email" id="email" name="email" required>
 
       <label for="message"  data-i18n="navMessage">Message: </label>
-      <textarea id="message" required></textarea>
+      <textarea id="message" name="message" required></textarea>
 
       <button type="submit"  data-i18n="navSubmit">Send</button>
     </form>
